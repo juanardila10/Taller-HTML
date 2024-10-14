@@ -1,0 +1,227 @@
+.header-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff; 
+    padding: 10px 10px;
+    font-family: Arial, sans-serif;
+}
+
+.item_header {
+    display: flex; /* Alinea icono y texto en cada item */
+    align-items: center; /* Centra verticalmente */
+    margin-right: 30px; /* Espacio entre items */
+  }
+
+.span_header_bold {
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.whatsapp{
+    text-decoration: underline;
+}
+
+.header_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff; 
+    padding: 10px 10px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.logo img {
+    width: 400px;
+    margin-right: 80px; 
+}
+
+.buscador {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff; /* Color de fondo */
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 10px; 
+    border-color: #bebebe;
+    width: 100px;
+  }
+  
+  .buscador input[type="text"] {
+    outline: none;
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: #bebebe;
+  }
+
+  .llamenos{
+    width: 40px;
+    margin-left: 200px;
+    margin-right: 10px;
+  }
+
+.div_navegacion{
+    height: 40;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.barra-navegacion {
+    background-color: #1042a9; /* Color azul oscuro de fondo */
+    color: white; /* Color del texto */  
+    width: 100%; /* Ancho completo */
+    height: 100;
+    align-items: center;
+}
+  
+  .barra-navegacion ul {
+    list-style: none; /* Quitar viñetas de la lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Alinear elementos en línea */
+    justify-content: center; /* Distribuir elementos con espacio */
+    align-items: center; /* Centrar verticalmente */
+  }
+  
+  .item{
+    margin: 0 20px; /* Espaciado entre elementos de la lista */
+    margin-top: 20px;
+    height: 40px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+  }
+  .carrito{
+    background-color:#ffc000;
+    height: 60px;
+    color: #252525;
+  }
+  .carrito_text{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+  }
+
+.image_herramientas{
+  margin-left: 90px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  
+}
+.image_herramientas img{
+  
+  width: 1550px;
+  height: 500px;
+}
+
+.span_header_destacados{
+  font-weight: bold;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 30px;
+}
+.productos{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 30px;
+  font-size: 26px;
+  color: #848b92;
+}
+
+.productos_destacados {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 30px;
+  font-size: 26px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.div_navegacion{
+  height: 20px;
+  align-items: center;
+}
+
+.barra-navegacion-productos{
+  background-color: #ffffff; /* Color azul oscuro de fondo */
+    color: #848b92; /* Color del texto */  
+    width: 100%; /* Ancho completo */
+    height: 100;
+    align-items: center;
+}
+
+.barra-navegacion-productos ul {
+  list-style: none; /* Quitar viñetas de la lista */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Alinear elementos en línea */
+  justify-content: center; /* Distribuir elementos con espacio */
+  align-items: center; /* Centrar verticalmente */
+}
+
+.catalogo_1{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff; 
+    padding: 10px 10px;
+    font-family: Arial, sans-serif;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 400px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card-img-top{
+  width: 200px;
+  height: 300px;
+}
+
+.external_contenedor{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff; 
+    padding: 10px 10px;
+    font-family: Arial, sans-serif;
+}
+.contenedor {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff; 
+    border: 2px solid rgb(169, 169, 169);
+    font-family: Arial, sans-serif;
+  width: 1000px;
+}
+
+.imagen img {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 600px;
+}
+
+.texto {
+  width: 50%; /* Ajusta el ancho del texto según necesites */
+  padding: 20px; /* Añade espacio alrededor del texto */
+}
